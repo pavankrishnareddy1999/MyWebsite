@@ -1,12 +1,148 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>Internship Verification</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certificate Verification</title>
+    <style>
+        body {
+            font-family: 'Roboto', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #f3f4f6, #d4e7f5);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: #333;
+        }
+        .container {
+            background: white;
+            max-width: 600px;
+            width: 90%;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            position: relative;
+        }
+        .header {
+            background: linear-gradient(90deg, #4CAF50, #1B5E20);
+            color: white;
+            padding: 15px;
+            border-radius: 10px 10px 0 0;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+        .verified-icon {
+            font-size: 60px;
+            color: #4CAF50;
+            margin: 20px 0;
+        }
+        .congrats {
+            font-size: 26px;
+            color: #4CAF50;
+            font-weight: bold;
+            margin: 15px 0;
+        }
+        .certificate-details {
+            font-size: 18px;
+            text-align: left;
+            margin: 20px auto;
+            padding: 20px;
+            background: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+        .certificate-details ul {
+            list-style: none;
+            padding: 0;
+        }
+        .certificate-details ul li {
+            margin-bottom: 10px;
+            font-size: 16px;
+        }
+        .certificate-details strong {
+            color: #4CAF50;
+        }
+        .link {
+            margin-top: 20px;
+            display: inline-block;
+            font-size: 16px;
+            font-weight: bold;
+            text-decoration: none;
+            color: white;
+            background: linear-gradient(90deg, #4CAF50, #1B5E20);
+            border: none;
+            padding: 12px 30px;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .link:hover {
+            background: linear-gradient(90deg, #1B5E20, #4CAF50);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+        }
+        footer {
+            margin-top: 20px;
+            font-size: 12px;
+            color: gray;
+        }
+        .ribbon {
+            width: 120px;
+            height: 40px;
+            background: linear-gradient(90deg, #FF8C00, #FF5722);
+            color: white;
+            font-size: 14px;
+            font-weight: bold;
+            position: absolute;
+            top: -20px;
+            left: -20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transform: rotate(-45deg);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+    </style>
 </head>
-<body style="text-align: center; font-family: Arial;">
-    <h1 style="color: green;">✅ Verified Successfully</h1>
-    <p>Konithala Nagavidhya has successfully completed her internship.</p>
-    <a href="https://drive.google.com/file/d/1WhVuN1gqbb9g_7VCzRlSvXo1iqdp3tIr/view?usp=sharing" target="_blank">
-        View Certificate
-    </a>
+<body>
+    <div class="container">
+        <!-- Ribbon -->
+        <div class="ribbon">Verified</div>
+
+        <!-- Header -->
+        <div class="header">
+            <h1>Certificate Verification</h1>
+        </div>
+
+        <!-- Verified Icon -->
+        <div class="verified-icon">✔</div>
+
+        <!-- Congratulations Section -->
+        <div class="congrats">🎉 CONGRATULATIONS 🎉</div>
+        <p>It’s a verified certificate from Modak Analytics</p>
+
+        <!-- Certificate Details -->
+        <div class="certificate-details">
+            <ul>
+                <li><strong>Learner Full Name:</strong> KONITHALA NAGA VIDHYA</li>
+                <li><strong>Internship Course:</strong> MS SQL & Python Development Program</li>
+                <li><strong>Duration:</strong> 10/05/2024 to 12/07/2024</li>
+            </ul>
+        </div>
+
+        <!-- View Certificate Button -->
+        <a class="link" href="https://drive.google.com/file/d/1WhVuN1gqbb9g_7VCzRlSvXo1iqdp3tIr/view?usp=sharing" target="_blank">View Certificate</a>
+
+        <!-- Footer -->
+        <footer>
+            The details accessed via the QR code are secure and will only display the information related to the learner’s internship.
+        </footer>
+    </div>
 </body>
 </html>
